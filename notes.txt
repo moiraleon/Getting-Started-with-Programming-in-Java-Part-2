@@ -1,0 +1,37 @@
+Methods
+method and function refer to the same thing
+camel case
+
+
+
+name (typed-parameter-list){
+    statements
+}
+
+Return type -indicates the type of data returned
+
+returntype name (typed-parameter-list){
+    statements
+}
+ 
+ use void when no value returned
+
+static void doSomething(){
+
+}
+
+static helps compile the code
+Parameters enable passing data values to methods
+
+
+static void showSum(float x,float y, int count){
+
+}
+(float...) are our parameters
+int count is how many times it will pass through
+the parameter receives copies of the values so what is being performed on th evalues within the function does not actually affect the original values;
+
+What makes a mthod exit- end of code, return statements, errors
+
+
+
