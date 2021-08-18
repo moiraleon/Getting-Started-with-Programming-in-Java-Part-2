@@ -83,3 +83,38 @@ message=sb.toString;
 string builds can be made of all types of data char, double, strings etc. and all combined
 
 
+Module 8 String Formatting
+
+string.format
+system.out.printf
+formatter.format
+
+uses substitutions 
+
+My nephews are %d, %d, %d, and %d years old.
+substitutions could be method results
+
+String s4 = String.format(
+    "....... %.1f  ..."
+) gies one float decimal 
+
+format conversions possible
+Decimal, HEX, decimal – floating point, Scientific notation – floating point, string -general
+
+format flags 
+start with % end with conversion
+
+#- include radix
+width can help with alginment and so can leading zeros
+%,d comma flag indicates use of , between long numbers
+%,.2f would use commas and give two decimal spaces
+0- zero padding
+- left justify
+,include group separator
+space Leading space when positive number
++ Always show sign
+( enclose negative values in a parenthesis
+
+indexes correspond sequentially
+or can be specified with index$ index of argument (1 based)
+< less than index corresponds to format of previous format specifier
